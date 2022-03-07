@@ -1,0 +1,170 @@
+
+body {
+
+  background-image: url('Wallpaper.jpg') !important;
+  color: white;
+  width: 100%;
+  height: auto;
+
+  }
+
+
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(20, 20, 20);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #04AA6D;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+#headjumbo img{
+  height: 200px;
+  width: 100%;
+  border-radius: 20%;
+
+}
+.jumbotron{
+  
+  box-shadow: 1px 1px 5px gray ;
+  width: auto;
+  background-image: url('Jumbobg.jpg') !important;
+  border-radius: 3%;
+}
+
+  #aboutme{
+margin-top: 75px;
+  }
+
+#Skills {
+  margin-top: 75px;
+}
+
+#Skills i {
+  font-size: 3.5rem;
+  margin: auto;
+  color: blue;
+  margin: 10px;
+
+}
+#Skills i:hover {
+color: #111 !important;
+font-size: 5.2;
+}
+
+.cap1 { 
+
+  margin-top: 15px;
+
+}
+.carousel-indicators li{
+  display: none;
+}
+#Projects img {
+  width: 100%;
+  height: 400px;
+}
+#showcase {
+margin-top: 100px;
+background-image: url('Background (2).jpg') !important;
+}
+
+
+#workhistory h2 {
+  font-size: 2rem;
+  text-decoration: underline blue;
+
+}
+
+#workhistory h4 {
+  font-size: 1.3rem;
+
+  
+}
+
+
+#workhistory h5 {
+  font-size: 1rem;
+  font-style: italic;
+  
+}
+
+#workhistory p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: left;
+}
+#aboutme h2 {
+  font-size: 2rem;
+  text-decoration: underline blue;
+}
+#Skills h2 {
+  font-size: 2rem;
+  text-decoration: underline blue;
+}
+#showcase h2{
+  font-size: 2rem;
+  text-decoration: underline blue;
+}
+#education h2 { 
+  font-size: 2rem;
+  text-decoration: underline blue;
+}
+#Certifications h2 {
+  font-size: 2rem;
+  text-decoration: underline blue;
+}
+#footer {
+    margin-top: 100px;
+}
+#contact i {
+  font-size: 1.7rem;
+
+}
